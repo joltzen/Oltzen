@@ -6,16 +6,14 @@ import lcmeterschaltung from "../images/lcmeterschaltung.png";
 const Schaltung = () => {
   const classes = useStyles();
   return (
-    <div>
-      <Container maxWidth="md">
-        <Page title="Schaltung" />
-      </Container>
+    <Container maxWidth="md">
+      <Page title="Schaltung" />
       <img
         className={classes.lcmeterschaltung}
         src={lcmeterschaltung}
         alt="lcmeterschaltung"
       />
-    </div>
+    </Container>
   );
 };
 

@@ -69,6 +69,14 @@ const useStyles = makeStyles({
     height: "315px",
     width: "400px",
   },
+  controller: {
+    height: "2000px",
+    width: "2000px",
+  },
+  audioschaltung: {
+    height: "900px",
+    width: "1400px",
+  },
 });
 
 export default useStyles;

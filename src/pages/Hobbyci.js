@@ -3,10 +3,8 @@ import React from "react";
 import Buttons from "../components/Buttons";
 import Page from "../components/Page";
 import Typograph from "../components/Typograph";
-import useStyles from "../hooks/useStyles";
 
 const Hobbyci = () => {
-  const classes = useStyles();
   return (
     <Container maxWidth="md">
       <Page title="HobbyCi" description="Grundgedanke" />
