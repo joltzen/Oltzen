@@ -3,15 +3,15 @@ import React from "react";
 import "../App.css";
 import Buttons from "../components/Buttons";
 import Footer from "../components/Footer";
+import Page from "../components/Page";
 import Typograph from "../components/Typograph";
 
 function Tutorial() {
   return (
     <Container maxWidth="md">
-      <Typograph variant="h2" text="Tutorial und Dokumentation" />
-      <Typograph
-        variant="h4"
-        text="Am besten erlernt man HobbyCi mit Youtube-Tutorials"
+      <Page
+        title="Tutorial und Dokumentation"
+        description="Am besten erlernt man HobbCi mit YouTube-Tutorials"
       />
 
       <Grid container spacing={3}>
@@ -39,13 +39,12 @@ function Tutorial() {
           />
         </Grid>
       </Grid>
-      <Typograph variant="h4" text="Weitere Tutorials und Videos" />
+      <Typograph variant="h5" text="Weitere Tutorials und Videos" />
 
       <Grid item xs={8}>
         <Buttons
           href="http://youtu.be/iWf7SlGyEUI"
           variant="contained"
-          color="default"
           title="Tutorial: Importieren & Zusammenführen von Schaltplänen"
         />
       </Grid>

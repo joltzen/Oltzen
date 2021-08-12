@@ -1,13 +1,18 @@
 import { Container } from "@material-ui/core";
 import React from "react";
 import Footer from "../components/Footer";
+import Page from "../components/Page";
 import Typograph from "../components/Typograph";
 
 const Home = () => {
   return (
     <Container maxWidth="md">
-      <Typograph variant="h2" text="Projekte" />
-      <Typograph variant="h5" text="Willkommen auf Startseite von Oltzen.de" />
+      <Page
+        title="Projekte"
+        description="Willkommen auf der Startseite von Oltzen.de"
+      />
+      {/* <Typograph variant="h2" text="Projekte" />
+      <Typograph variant="h5" text="Willkommen auf Startseite von Oltzen.de" /> */}
       <Typograph
         variant="body1"
         text=" Alle Projekte die ich hier veröffentliche, sollen als Anregung für

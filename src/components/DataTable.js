@@ -6,6 +6,7 @@ import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import React from "react";
+import useStyles from "../hooks/useStyles";
 
 function createData(command, caption) {
   return { command, caption };
@@ -56,7 +57,7 @@ const rows = [
     "Zeichnet ein ausgefülltes Polygone."
   ),
   createData(
-    "polyline x1 y1 ... xn yn;",
+    "fpolyline x1 y1 ... xn yn;",
     "Zeichnet ein ausgefülltes Polyline. Dies ist aber identisch mit einem ausgefüllten Polygon."
   ),
   createData(
@@ -66,8 +67,9 @@ const rows = [
 ];
 
 const DataTable = () => {
+  const classes = useStyles();
   return (
-    <TableContainer component={Paper}>
+    <TableContainer component={Paper} className={classes.table}>
       <Table aria-label="simple table">
         <TableHead>
           <TableRow>
@@ -81,7 +83,7 @@ const DataTable = () => {
               <TableCell component="th" scope="row">
                 {row.command}
               </TableCell>
-              <TableCell align="right">{row.caption}</TableCell>
+              <TableCell align="left">{row.caption}</TableCell>
             </TableRow>
           ))}
         </TableBody>

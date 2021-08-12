@@ -1,6 +1,7 @@
 import { Container, Divider, List, ListItem } from "@material-ui/core";
 import React from "react";
 import Buttons from "../components/Buttons";
+import Page from "../components/Page";
 import Typograph from "../components/Typograph";
 import useStyles from "../hooks/useStyles";
 
@@ -8,8 +9,7 @@ const Hobbyci = () => {
   const classes = useStyles();
   return (
     <Container maxWidth="md">
-      <Typograph variant="h2" text="HobbyCi" />
-      <Typograph variant="h3" text="Grundgedanke" />
+      <Page title="HobbyCi" description="Grundgedanke" />
       <Typograph
         variant="body1"
         text="HobbyCi ist aus der Idee geboren, Schaltungen möglichst schnell 

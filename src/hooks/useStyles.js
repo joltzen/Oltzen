@@ -19,6 +19,20 @@ const useStyles = makeStyles({
     bottom: 0,
     width: "100%",
   },
+  table: {
+    marginTop: 40,
+  },
+  header: {
+    color: "#4676b4",
+    marginBottom: 20,
+    marginTop: 30,
+  },
+  feature: {
+    "margin-top": "20px",
+  },
+  changeList: {
+    "margin-top": "20px",
+  },
 });
 
 export default useStyles;
