@@ -1,0 +1,46 @@
+{
+  "editor.rulers": [80],
+  // "javascript.format.enable": false,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.jsx": "javascriptreact"
+  },
+  "eslint.packageManager": "npm",
+  "npm.packageManager": "npm",
+  "eslint.nodePath": "./node_modules/.bin/eslint",
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "files.exclude": {
+    ".eslint.cache": false,
+    ".vscode": false,
+    "coverage": false,
+    "node_modules": false,
+    "package-lock.json": false,
+    ".cloudbuilds": false,
+    ".gitlab-ci.yml": false,
+    ".node-version": false,
+    ".dockerignore": false,
+    ".gcloudignore": false,
+    "Dockerfile*": false,
+    ".prettierrc": false,
+    ".huskyrc.json": false,
+    ".lintstagedrc": false,
+    "build/": false,
+    ".firebase/": false,
+    ".eslintcache": false,
+    ".husky/": false,
+    "prepare.js": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+    "source.addMissingImports": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "gitlab.instanceUrl": "https://git.cpl.cloud"
+}
