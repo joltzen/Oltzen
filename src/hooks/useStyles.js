@@ -37,7 +37,30 @@ const useStyles = makeStyles({
     height: "300px",
     width: "300px",
   },
-
+  messungpic: {
+    height: "150px",
+    width: "400px",
+  },
+  cformel: {
+    height: "100px",
+    width: "400px",
+  },
+  entladeformel: {
+    height: "100px",
+    width: "250px",
+  },
+  cformel2: {
+    height: "500px",
+    width: "350px",
+  },
+  messgerät: {
+    height: "500px",
+    width: "600px",
+  },
+  lformel: {
+    width: "550px",
+    height: "150px",
+  },
 });
 
 export default useStyles;
