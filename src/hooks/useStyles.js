@@ -25,7 +25,7 @@ const useStyles = makeStyles({
   header: {
     color: "#4676b4",
     marginBottom: 20,
-    marginTop: 30,
+    marginTop: 70,
   },
   feature: {
     "margin-top": "20px",
@@ -64,6 +64,10 @@ const useStyles = makeStyles({
   lcmeterschaltung: {
     width: "1500px",
     height: "1400px",
+  },
+  media: {
+    height: "315px",
+    width: "400px",
   },
 });
 
