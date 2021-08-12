@@ -5,7 +5,7 @@ import Page from "../components/Page";
 import useStyles from "../hooks/useStyles";
 import controller from "../images/controller.png";
 
-function Controller() {
+const Controller =() =>{
   const classes = useStyles();
   return (
     <Container maxWidth="md">

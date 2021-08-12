@@ -12,6 +12,7 @@ import cformel2 from "../images/cformel2.jpg";
 import entladeformel from "../images/entladeformel.jpg";
 import lformel from "../images/lformel.jpg";
 import messgerät from "../images/Messgerät.jpg";
+
 const Lcmeter = () => {
   const classes = useStyles();
   return (

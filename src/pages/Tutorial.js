@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import Page from "../components/Page";
 import Typograph from "../components/Typograph";
 
-function Tutorial() {
+const Tutorial = () => {
   return (
     <Container maxWidth="md">
       <Page
@@ -51,6 +51,6 @@ function Tutorial() {
       <Footer />
     </Container>
   );
-}
+};
 
 export default Tutorial;

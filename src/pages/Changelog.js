@@ -3,7 +3,7 @@ import React from "react";
 import Page from "../components/Page";
 import Version from "../components/Version";
 
-function Changelog() {
+const Changelog=()=> {
   return (
     <>
       <Container maxWidth="md">

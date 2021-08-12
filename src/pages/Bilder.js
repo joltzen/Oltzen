@@ -1,11 +1,12 @@
+import { Container } from "@material-ui/core";
 import React from "react";
-
-function Bilder() {
+import Page from "../components/Page";
+const Bilder = () => {
   return (
-    <div className="bilder">
-      <h1>Bilder</h1>
-    </div>
+    <Container maxWidth="md">
+      <Page title="Bilder" />
+    </Container>
   );
-}
+};
 
 export default Bilder;

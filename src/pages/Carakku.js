@@ -1,11 +1,11 @@
 import React from "react";
 
-function Carakku() {
+const Carakku = () => {
   return (
     <div className="carakku">
       <h1>Carakku</h1>
     </div>
   );
-}
+};
 
 export default Carakku;

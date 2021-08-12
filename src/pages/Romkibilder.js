@@ -1,11 +1,12 @@
+import { Container } from "@material-ui/core";
 import React from "react";
-
-function Romkibilder() {
+import Page from "../components/Page";
+const Romkibilder = () => {
   return (
-    <div className="Romkibilder">
-      <h1>Romkibilder</h1>
-    </div>
+    <Container maxWidth="md">
+      <Page title="Romkibilder" />
+    </Container>
   );
-}
+};
 
 export default Romkibilder;

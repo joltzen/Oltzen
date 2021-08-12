@@ -3,7 +3,7 @@ import React from "react";
 import DataTable from "../components/DataTable";
 import Page from "../components/Page";
 import Typograph from "../components/Typograph";
-function Zeichenbefehle() {
+const Zeichenbefehle = () => {
   return (
     <Container maxWidth="md">
       <Page title="Zeichenbefehle" />
@@ -20,6 +20,6 @@ function Zeichenbefehle() {
       <DataTable />
     </Container>
   );
-}
+};
 
 export default Zeichenbefehle;

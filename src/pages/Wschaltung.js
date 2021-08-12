@@ -1,11 +1,11 @@
 import React from "react";
 
-function Wschaltung() {
+const Wschaltung = () => {
   return (
     <div className="Wschaltung">
       <h1>Wschaltung</h1>
     </div>
   );
-}
+};
 
 export default Wschaltung;

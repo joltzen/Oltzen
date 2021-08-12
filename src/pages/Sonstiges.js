@@ -1,11 +1,11 @@
 import React from "react";
 
-function Sonstiges() {
+const Sonstiges = () => {
   return (
     <div className="Sonstiges">
       <h1>Sonstiges</h1>
     </div>
   );
-}
+};
 
 export default Sonstiges;
