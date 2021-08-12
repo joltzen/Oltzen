@@ -33,6 +33,11 @@ const useStyles = makeStyles({
   changeList: {
     "margin-top": "20px",
   },
+  singertrainer: {
+    height: "300px",
+    width: "300px",
+  },
+
 });
 
 export default useStyles;
