@@ -77,6 +77,10 @@ const useStyles = makeStyles({
     height: "900px",
     width: "1400px",
   },
+  innenleben: {
+    height: "600px",
+    width: "600px",
+  },
 });
 
 export default useStyles;
