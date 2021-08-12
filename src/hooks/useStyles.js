@@ -61,6 +61,10 @@ const useStyles = makeStyles({
     width: "550px",
     height: "150px",
   },
+  lcmeterschaltung: {
+    width: "1500px",
+    height: "1400px",
+  },
 });
 
 export default useStyles;

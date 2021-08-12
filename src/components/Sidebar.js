@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import styled from "styled-components";
-import { Link } from "react-router-dom";
 import { Menu } from "@material-ui/icons";
+import React, { useState } from "react";
+import { IconContext } from "react-icons/lib";
+import { Link } from "react-router-dom";
+import styled from "styled-components";
+import "./Sidebar.css";
 import { SidebarData } from "./SidebarData";
 import SubMenu from "./SubMenu";
-import { IconContext } from "react-icons/lib";
-import "./Sidebar.css";
 
 const Nav = styled.div`
   background: #172449;
@@ -13,6 +13,7 @@ const Nav = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
 `;
 
 const NavIcon = styled(Link)`
