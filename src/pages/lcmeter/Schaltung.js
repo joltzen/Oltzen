@@ -9,7 +9,7 @@ const Schaltung = () => {
     <Container maxWidth="md">
       <Page title="Schaltung" />
       <img
-        className={classes.lcmeterschaltung}
+        className={classes.fullhd}
         src={lcmeterschaltung}
         alt="lcmeterschaltung"
       />

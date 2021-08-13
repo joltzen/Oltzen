@@ -57,7 +57,7 @@ const W5500 = () => {
       <Typograph variant="h4" text="Software:" />
       <Link href="https://github.com/oltzen/W5500Example/">Github</Link>
       <Typograph variant="h4" text="Schaltung:" />
-      <img className={classes.w5500} src={w5500} alt="w5500" />
+      <img className={classes.hd} src={w5500} alt="w5500" />
       <Typograph variant="body1" text="(26.02.2019" />
     </Container>
   );

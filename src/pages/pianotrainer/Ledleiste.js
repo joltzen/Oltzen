@@ -10,7 +10,7 @@ const Ledleiste = () => {
   return (
     <Container maxWidth="md">
       <Page title="LED Leiste" />
-      <img className={classes.controller} src={ledleiste} alt="ledleiste" />
+      <img className={classes.fullhd} src={ledleiste} alt="ledleiste" />
       <Typograph variant="body1" text="(19.11.2011)" />
     </Container>
   );

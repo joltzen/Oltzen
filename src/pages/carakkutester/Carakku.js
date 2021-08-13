@@ -64,7 +64,7 @@ const Carakku = () => {
         title="Schaltplan und Sourcecode"
         variant="contained"
       />
-      <img className={classes.car} src={caraccutester} alt="caraccutester" />
+      <img className={classes.hd} src={caraccutester} alt="caraccutester" />
       <Typograph variant="body1" text="(26.01.2015)" />
     </Container>
   );

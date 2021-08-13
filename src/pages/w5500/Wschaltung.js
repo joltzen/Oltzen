@@ -10,7 +10,7 @@ const Wschaltung = () => {
   return (
     <Container maxWidth="md">
       <Page title="Schaltung mit WIZ550io und ATmega8" />
-      <img className={classes.controller} src={w5500} alt="w5500" />
+      <img className={classes.fullhd} src={w5500} alt="w5500" />
       <Footer />
     </Container>
   );
