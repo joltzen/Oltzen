@@ -2,11 +2,11 @@ import { Container } from "@material-ui/core";
 import React from "react";
 import Page from "../components/Page";
 import Typograph from "../components/Typograph";
-import useStyles from "../hooks/useStyles";
+import useImages from "../hooks/useImages";
 import audioschaltung from "../images/audioschaltung.png";
 
 const Audio = () => {
-  const classes = useStyles();
+  const classes = useImages();
   return (
     <Container maxWidth="md">
       <Page title="Audio Ausgabe" />

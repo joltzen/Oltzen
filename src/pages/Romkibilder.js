@@ -2,11 +2,11 @@ import { Container } from "@material-ui/core";
 import React from "react";
 import Page from "../components/Page";
 import Typograph from "../components/Typograph";
-import useStyles from "../hooks/useStyles";
+import useImages from "../hooks/useImages";
 import antrieb from "../images/antrieb.jpg";
 import innenleben from "../images/innenleben.jpg";
 const Romkibilder = () => {
-  const classes = useStyles();
+  const classes = useImages();
   return (
     <Container maxWidth="md">
       <Page

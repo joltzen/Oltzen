@@ -3,7 +3,7 @@ import React from "react";
 import Buttons from "../components/Buttons";
 import Page from "../components/Page";
 import Typograph from "../components/Typograph";
-import useStyles from "../hooks/useStyles";
+import useImages from "../hooks/useImages";
 import messung1 from "../images/1Messung.png";
 import messung2 from "../images/2Messung.png";
 import messung3 from "../images/3Messung.png";
@@ -14,7 +14,7 @@ import lformel from "../images/lformel.jpg";
 import messgerät from "../images/Messgerät.jpg";
 
 const Lcmeter = () => {
-  const classes = useStyles();
+  const classes = useImages();
   return (
     <Container maxWidth="md">
       <Page title="LC-Meter" />
