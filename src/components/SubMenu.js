@@ -1,3 +1,4 @@
+import { Divider } from "@material-ui/core";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
@@ -9,12 +10,13 @@ const SidebarLink = styled(Link)`
   align-items: center;
   padding: 20px;
   list-style: none;
-  height: 30px;
+  height: 15px;
   text-decoration: none;
   font-size: 18px;
+  background: #fff;
 
   &:hover {
-    background: #d3dde9;
+    background: #f6f7f9;
     cursor: pointer;
   }
 `;
@@ -25,7 +27,7 @@ const SidebarLabel = styled.span`
 
 const DropdownLink = styled(Link)`
   background: #fff;
-  height: 60px;
+  height: 50px;
   padding-left: 3rem;
   display: flex;
   align-items: center;
@@ -34,7 +36,7 @@ const DropdownLink = styled(Link)`
   font-size: 18px;
 
   &:hover {
-    background: #d3dde9;
+    background: #f6f7f9;
     cursor: pointer;
   }
 `;
@@ -62,10 +64,13 @@ const SubMenu = ({ item }) => {
       {subnav &&
         item.subNav.map((item, index) => {
           return (
-            <DropdownLink to={item.path} key={index}>
-              {item.icon}
-              <SidebarLabel>{item.title}</SidebarLabel>
-            </DropdownLink>
+            <>
+              <DropdownLink to={item.path} key={index}>
+                {item.icon}
+                <SidebarLabel>{item.title}</SidebarLabel>
+              </DropdownLink>
+              <Divider />
+            </>
           );
         })}
     </>

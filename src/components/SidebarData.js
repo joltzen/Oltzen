@@ -1,9 +1,9 @@
 import {
-  ArrowDropDown,
-  ArrowDropUp,
   Bookmark,
+  ChevronRightOutlined,
   DriveEta,
   EmojiObjects,
+  ExpandMoreOutlined,
   FlashOn,
   Highlight,
   Home,
@@ -28,8 +28,8 @@ export const SidebarData = [
     title: "HobbiCi",
     path: "/hobbyci",
     icon: <FlashOn />,
-    iconClosed: <ArrowDropDown />,
-    iconOpened: <ArrowDropUp />,
+    iconClosed: <ChevronRightOutlined />,
+    iconOpened: <ExpandMoreOutlined />,
 
     subNav: [
       {
@@ -55,8 +55,8 @@ export const SidebarData = [
     title: "LC-Meter",
     path: "/lcmeter",
     icon: <RssFeed />,
-    iconClosed: <ArrowDropDown />,
-    iconOpened: <ArrowDropUp />,
+    iconClosed: <ChevronRightOutlined />,
+    iconOpened: <ExpandMoreOutlined />,
 
     subNav: [
       {
@@ -70,8 +70,8 @@ export const SidebarData = [
     title: "Pianotrainer",
     path: "/pianotrainer",
     icon: <Straighten />,
-    iconClosed: <ArrowDropDown />,
-    iconOpened: <ArrowDropUp />,
+    iconClosed: <ChevronRightOutlined />,
+    iconOpened: <ExpandMoreOutlined />,
 
     subNav: [
       {
@@ -94,8 +94,8 @@ export const SidebarData = [
     title: "RomkI",
     path: "/romki",
     icon: <Bookmark />,
-    iconClosed: <ArrowDropDown />,
-    iconOpened: <ArrowDropUp />,
+    iconClosed: <ChevronRightOutlined />,
+    iconOpened: <ExpandMoreOutlined />,
 
     subNav: [
       {
@@ -120,8 +120,8 @@ export const SidebarData = [
     path: "/w5500",
     icon: <SettingsInputHdmi />,
 
-    iconClosed: <ArrowDropDown />,
-    iconOpened: <ArrowDropUp />,
+    iconClosed: <ChevronRightOutlined />,
+    iconOpened: <ExpandMoreOutlined />,
 
     subNav: [
       {
@@ -135,8 +135,8 @@ export const SidebarData = [
     path: "/sonstiges",
     icon: <EmojiObjects />,
 
-    iconClosed: <ArrowDropDown />,
-    iconOpened: <ArrowDropUp />,
+    iconClosed: <ChevronRightOutlined />,
+    iconOpened: <ExpandMoreOutlined />,
 
     subNav: [
       {
