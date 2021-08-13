@@ -1,10 +1,10 @@
 import { Container } from "@material-ui/core";
+import Page from "components/Page";
+import Typograph from "components/Typograph";
+import useImages from "hooks/useImages";
+import antrieb from "images/antrieb.jpg";
+import innenleben from "images/innenleben.jpg";
 import React from "react";
-import Page from "../components/Page";
-import Typograph from "../components/Typograph";
-import useImages from "../hooks/useImages";
-import antrieb from "../images/antrieb.jpg";
-import innenleben from "../images/innenleben.jpg";
 const Romkibilder = () => {
   const classes = useImages();
   return (

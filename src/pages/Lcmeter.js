@@ -1,17 +1,17 @@
 import { Container } from "@material-ui/core";
+import Buttons from "components/Buttons";
+import Page from "components/Page";
+import Typograph from "components/Typograph";
+import useImages from "hooks/useImages";
+import messung1 from "images/1Messung.png";
+import messung2 from "images/2Messung.png";
+import messung3 from "images/3Messung.png";
+import cformel from "images/cformel.jpg";
+import cformel2 from "images/cformel2.jpg";
+import entladeformel from "images/entladeformel.jpg";
+import lformel from "images/lformel.jpg";
+import messgerät from "images/Messgerät.jpg";
 import React from "react";
-import Buttons from "../components/Buttons";
-import Page from "../components/Page";
-import Typograph from "../components/Typograph";
-import useImages from "../hooks/useImages";
-import messung1 from "../images/1Messung.png";
-import messung2 from "../images/2Messung.png";
-import messung3 from "../images/3Messung.png";
-import cformel from "../images/cformel.jpg";
-import cformel2 from "../images/cformel2.jpg";
-import entladeformel from "../images/entladeformel.jpg";
-import lformel from "../images/lformel.jpg";
-import messgerät from "../images/Messgerät.jpg";
 
 const Lcmeter = () => {
   const classes = useImages();

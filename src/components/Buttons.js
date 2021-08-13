@@ -1,7 +1,7 @@
 import { Button } from "@material-ui/core";
+import useStyles from "hooks/useStyles";
 import PropTypes from "prop-types";
 import React from "react";
-import useStyles from "../hooks/useStyles";
 
 const Buttons = ({ href, variant, title }) => {
   const classes = useStyles();

@@ -5,8 +5,8 @@ import TableCell from "@material-ui/core/TableCell";
 import TableContainer from "@material-ui/core/TableContainer";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
+import useStyles from "hooks/useStyles";
 import React from "react";
-import useStyles from "../hooks/useStyles";
 
 function createData(command, caption) {
   return { command, caption };

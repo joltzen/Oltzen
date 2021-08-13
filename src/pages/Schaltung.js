@@ -1,8 +1,8 @@
 import { Container } from "@material-ui/core";
+import Page from "components/Page";
+import useImages from "hooks/useImages";
+import lcmeterschaltung from "images/lcmeterschaltung.png";
 import React from "react";
-import Page from "../components/Page";
-import useImages from "../hooks/useImages";
-import lcmeterschaltung from "../images/lcmeterschaltung.png";
 const Schaltung = () => {
   const classes = useImages();
   return (

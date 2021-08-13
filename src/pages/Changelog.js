@@ -1,9 +1,9 @@
 import { Container } from "@material-ui/core";
+import Page from "components/Page";
+import Version from "components/Version";
 import React from "react";
-import Page from "../components/Page";
-import Version from "../components/Version";
 
-const Changelog=()=> {
+const Changelog = () => {
   return (
     <>
       <Container maxWidth="md">
@@ -92,6 +92,6 @@ const Changelog=()=> {
       </Container>
     </>
   );
-}
+};
 
 export default Changelog;

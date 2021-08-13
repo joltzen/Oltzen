@@ -1,10 +1,10 @@
 import { Container, Grid } from "@material-ui/core";
+import "App.css";
+import Buttons from "components/Buttons";
+import Footer from "components/Footer";
+import Page from "components/Page";
+import Typograph from "components/Typograph";
 import React from "react";
-import "../App.css";
-import Buttons from "../components/Buttons";
-import Footer from "../components/Footer";
-import Page from "../components/Page";
-import Typograph from "../components/Typograph";
 
 const Tutorial = () => {
   return (

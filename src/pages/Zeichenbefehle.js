@@ -1,8 +1,8 @@
 import { Container } from "@material-ui/core";
+import DataTable from "components/DataTable";
+import Page from "components/Page";
+import Typograph from "components/Typograph";
 import React from "react";
-import DataTable from "../components/DataTable";
-import Page from "../components/Page";
-import Typograph from "../components/Typograph";
 const Zeichenbefehle = () => {
   return (
     <Container maxWidth="md">

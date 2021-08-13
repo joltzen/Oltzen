@@ -1,9 +1,9 @@
 import { Container, List, ListItem } from "@material-ui/core";
+import Buttons from "components/Buttons";
+import Page from "components/Page";
+import Typograph from "components/Typograph";
 import React from "react";
 import ReactPlayer from "react-player";
-import Buttons from "../components/Buttons";
-import Page from "../components/Page";
-import Typograph from "../components/Typograph";
 const Pianotrainer = () => {
   return (
     <Container maxWidth="md">

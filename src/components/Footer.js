@@ -1,7 +1,7 @@
 import { Container, Divider, Grid } from "@material-ui/core";
 import { Copyright } from "@material-ui/icons";
+import useStyles from "hooks/useStyles";
 import React from "react";
-import useStyles from "../hooks/useStyles";
 import Typograph from "./Typograph";
 
 const Footer = () => {

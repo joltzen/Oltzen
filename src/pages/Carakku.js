@@ -1,10 +1,10 @@
 import { Container, List, ListItem } from "@material-ui/core";
+import Buttons from "components/Buttons";
+import Page from "components/Page";
+import Typograph from "components/Typograph";
+import useImages from "hooks/useImages";
+import caraccutester from "images/caraccutester.jpg";
 import React from "react";
-import Buttons from "../components/Buttons";
-import Page from "../components/Page";
-import Typograph from "../components/Typograph";
-import useImages from "../hooks/useImages";
-import caraccutester from "../images/caraccutester.jpg";
 
 const Carakku = () => {
   const classes = useImages();

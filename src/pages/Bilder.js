@@ -1,7 +1,7 @@
 import { Container, Link } from "@material-ui/core";
 import React from "react";
-import Page from "../components/Page";
-import Typograph from "../components/Typograph";
+import Page from "components/Page";
+import Typograph from "components/Typograph";
 const Bilder = () => {
   return (
     <Container maxWidth="md">

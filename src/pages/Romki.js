@@ -1,8 +1,8 @@
 import { Container } from "@material-ui/core";
+import Footer from "components/Footer";
+import Page from "components/Page";
+import Typograph from "components/Typograph";
 import React from "react";
-import Footer from "../components/Footer";
-import Page from "../components/Page";
-import Typograph from "../components/Typograph";
 
 const Romki = () => {
   return (

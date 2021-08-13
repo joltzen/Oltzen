@@ -1,10 +1,10 @@
 import { Container } from "@material-ui/core";
+import Page from "components/Page";
+import Typograph from "components/Typograph";
+import useImages from "hooks/useImages";
+import lampeback from "images/lampeback.jpg";
+import lampefront from "images/lampefront.jpg";
 import React from "react";
-import Page from "../components/Page";
-import Typograph from "../components/Typograph";
-import useImages from "../hooks/useImages";
-import lampeback from "../images/lampeback.jpg";
-import lampefront from "../images/lampefront.jpg";
 
 const Nachttischlampe = () => {
   const classes = useImages();

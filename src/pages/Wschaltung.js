@@ -1,9 +1,9 @@
 import { Container } from "@material-ui/core";
+import Footer from "components/Footer";
+import Page from "components/Page";
+import useImages from "hooks/useImages";
+import w5500 from "images/w5500example.jpg";
 import React from "react";
-import Footer from "../components/Footer";
-import Page from "../components/Page";
-import useImages from "../hooks/useImages";
-import w5500 from "../images/w5500example.jpg";
 
 const Wschaltung = () => {
   const classes = useImages();

@@ -1,9 +1,9 @@
 import { Container } from "@material-ui/core";
+import Page from "components/Page";
+import Typograph from "components/Typograph";
+import audioschaltung from "images/audioschaltung.png";
 import React from "react";
-import Page from "../components/Page";
-import Typograph from "../components/Typograph";
-import useImages from "../hooks/useImages";
-import audioschaltung from "../images/audioschaltung.png";
+import useImages from "hooks/useImages";
 
 const Audio = () => {
   const classes = useImages();

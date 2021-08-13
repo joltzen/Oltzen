@@ -1,7 +1,7 @@
 import { Container } from "@material-ui/core";
+import Page from "components/Page";
+import Typograph from "components/Typograph";
 import React from "react";
-import Page from "../components/Page";
-import Typograph from "../components/Typograph";
 
 const Impressum = () => {
   return (

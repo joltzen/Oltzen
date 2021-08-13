@@ -1,10 +1,10 @@
 import { Container, Link } from "@material-ui/core";
+import Page from "components/Page";
+import Typograph from "components/Typograph";
+import useImages from "hooks/useImages";
+import mintyboost from "images/mintyboost.jpg";
+import mintyboostsch from "images/mintyboostsch.png";
 import React from "react";
-import Page from "../components/Page";
-import Typograph from "../components/Typograph";
-import useImages from "../hooks/useImages";
-import mintyboost from "../images/mintyboost.jpg";
-import mintyboostsch from "../images/mintyboostsch.png";
 
 const Mintyboost = () => {
   const classes = useImages();

@@ -1,7 +1,7 @@
 import Typography from "@material-ui/core/Typography";
+import useStyles from "hooks/useStyles";
 import PropTypes from "prop-types";
 import React from "react";
-import useStyles from "../hooks/useStyles";
 
 const ChangeList = ({ changes, changeSet, id }) => {
   const classes = useStyles();

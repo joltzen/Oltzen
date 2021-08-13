@@ -1,6 +1,6 @@
 import { Typography } from "@material-ui/core";
+import useStyles from "hooks/useStyles";
 import React from "react";
-import useStyles from "../hooks/useStyles";
 
 const Typograph = ({ variant, text }) => {
   const classes = useStyles();
