@@ -1,10 +1,9 @@
-import { Container } from "@material-ui/core";
+import { Container, Link } from "@material-ui/core";
 import Page from "components/Page";
 import Typograph from "components/Typograph";
 import useImages from "hooks/useImages";
 import w5500 from "images/w5500example.jpg";
 import React from "react";
-import { Link } from "react-router-dom";
 
 const W5500 = () => {
   const classes = useImages();
