@@ -1,4 +1,4 @@
-import { Container, Divider, Grid } from "@material-ui/core";
+import { Container, Divider } from "@material-ui/core";
 import { Copyright } from "@material-ui/icons";
 import useStyles from "hooks/useStyles";
 import React from "react";
@@ -8,16 +8,13 @@ const Footer = () => {
   const classes = useStyles();
   const date = new Date().getFullYear();
   return (
-    <Container maxWidth="md" className={classes.footer}>
+    <Container maxWidth="lg" className={classes.footer}>
       <Divider />
-      <Grid item xs={12}>
-        <Copyright fontSize="inherit" />
-
-        <Typograph
-          variant="caption"
-          text={`Copyright ${date} Thomas Oltzen, Alle Rechte vorbehalten`}
-        />
-      </Grid>
+      <Copyright fontSize="inherit" />
+      <Typograph
+        variant="caption"
+        text={`Copyright ${date} Thomas Oltzen, Alle Rechte vorbehalten`}
+      />
     </Container>
   );
 };

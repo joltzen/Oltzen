@@ -1,4 +1,5 @@
 import { Container, Link } from "@material-ui/core";
+import Body from "components/Body";
 import Page from "components/Page";
 import Typograph from "components/Typograph";
 import useImages from "hooks/useImages";
@@ -11,20 +12,17 @@ const Mintyboost = () => {
   return (
     <Container maxWidth="md">
       <Page title="Minty Boost" />
-      <Typograph
-        variant="body1"
+      <Body
         text="Der Minty Boost ist eine kleine Schaltung, mit dem Handys und andere Geräte,
             mittels Akkus über USB aufgeladen werden. Falls mal wieder das Handy fast leer ist,
             schnappe ich mir den Minty Boost und ein paar Akkus und schon ist das Netzproblem gelöst."
       />
-      <Typograph
-        variant="body1"
+      <Body
         text="Im Handel gibt es zwar auch ähnliche Aufladegeräte, aber diese werden mit LiPo-Akkus betrieben und sind sehr teuer.
              Und was ist, wenn die LiPo-Akkus leer sind? Dann hilft das teure Aufladegerät auch nicht.
              Mit dem Minty Boost kann ich zur Not auch Batterien kaufen, was ich aber auf Grund der Umweltbelastung nicht empfehle."
       />
-      <Typograph
-        variant="body1"
+      <Body
         text="Die Schaltung habe ich von 'ladyada' (der Link zu ihrer Schaltung befindet sich unten). Leider hatte die Schaltung eine Ungenauigkeit.
             Das Bauteil LT1302 reguliert nicht auf 5V, sondern ist über einen Spannungsteiler einstellbar.
              Wenn die Schaltung von ladyada aufgebaut wird, ist die USB Spannung etwas unter der Akku-Spannung.
@@ -34,8 +32,7 @@ const Mintyboost = () => {
       <Link href="http://www.ladyada.net/make/mintyboost/index.html">
         Schaltung von ladyada
       </Link>
-      <Typograph
-        variant="body1"
+      <Body
         text=" Das Gehäuse war ursprünglich ein billiges Aufladegerät für Akkus. Ich habe die ganze Elektronik, bis auf die Batteriehalterung, entfernt.
              Auch wenn für den Betrieb nur 2 Akkus benötigt werden, habe ich jetzt eine Halterung für 4 Akkus, was auch nicht schlecht ist."
       />
@@ -48,7 +45,7 @@ const Mintyboost = () => {
         className={classes.innenleben}
         alt="mintyboostsch"
       />
-      <Typograph variant="body1" text="(31.01.2015)" />
+      <Body text="(31.01.2015)" />
     </Container>
   );
 };

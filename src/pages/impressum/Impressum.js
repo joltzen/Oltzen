@@ -1,7 +1,9 @@
 import { Container } from "@material-ui/core";
+import Body from "components/Body";
 import Page from "components/Page";
 import Typograph from "components/Typograph";
 import React from "react";
+import { anschrift } from "./anschrift";
 
 const Impressum = () => {
   return (
@@ -9,12 +11,9 @@ const Impressum = () => {
       <Page title="Impressum" description="Anschrift" />
 
       <Typograph variant="h6" text="Thomas Oltzen" />
-      <Typograph variant="body1" text="Diplom Informatiker" />
-      <Typograph variant="body1" text="Carl-von-Ossietzky Straße 2" />
-      <Typograph variant="body1" text="41539 Dormagen" />
-      <Typograph variant="body1" text="Telefon: +49 (0) 2133 -21 93 10" />
-      <Typograph variant="body1" text="E-Mail: support@stolep.de" />
-      <Typograph variant="body1" text="(20.10.2011)" />
+      {anschrift.map((a) => (
+        <Body text={a} />
+      ))}
     </Container>
   );
 };

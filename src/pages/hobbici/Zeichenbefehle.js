@@ -1,22 +1,16 @@
 import { Container } from "@material-ui/core";
+import Body from "components/Body";
 import DataTable from "components/DataTable";
 import Page from "components/Page";
-import Typograph from "components/Typograph";
 import React from "react";
+import { text6, text7 } from "./texts";
+
 const Zeichenbefehle = () => {
   return (
     <Container maxWidth="md">
       <Page title="Zeichenbefehle" />
-
-      <Typograph
-        variant="body1"
-        text="Im Teileeditor können über ein Eingabebereich verschiedene Befehle zum
-        Zeichnen des Schaltelements angegeben werden."
-      />
-      <Typograph
-        variant="body1"
-        text="Der Nullpunkt des Koordinatensystems liegt links oben."
-      />
+      <Body text={text6} />
+      <Body text={text7} />
       <DataTable />
     </Container>
   );

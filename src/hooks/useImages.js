@@ -44,6 +44,10 @@ const useImages = makeStyles({
     height: "600px",
     width: "600px",
   },
+  light: {
+    height: "400px",
+    width: "300px",
+  },
 });
 
 export default useImages;

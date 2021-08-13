@@ -1,81 +1,33 @@
-import { Container, Divider, List, ListItem } from "@material-ui/core";
+import { Container, Divider } from "@material-ui/core";
+import Body from "components/Body";
 import Buttons from "components/Buttons";
 import Page from "components/Page";
 import Typograph from "components/Typograph";
+import UniqueList from "components/UniqueList";
 import React from "react";
-
+import { list1, list2, list3, list4 } from "./lists";
+import { text1, text2, text3, text4, text5 } from "./texts";
 const Hobbyci = () => {
   return (
     <Container maxWidth="md">
       <Page title="HobbyCi" description="Grundgedanke" />
-      <Typograph
-        variant="body1"
-        text="HobbyCi ist aus der Idee geboren, Schaltungen möglichst schnell 
-                und einfach zu entwerfen."
-      />
-      <Typograph
-        variant="body1"
-        text="HobbyCi hat keinen professionellen Anspruch.
-                Auch ambitionierte Hobby Entwickler, die zum Beispiel Platinen 
-                ätzen, werden bestimmt bessere Programme finden.Aber für Hobby 
-                Entwickler, die schnell eine Schaltplan erstellen oder einen
-                bestehende Schaltung dokumentieren wollen, werden mit HobbyCi 
-                eine interessante Alternative finden."
-      />
+      <Body text={text1} />
+      <Body text={text2} />
       <Typograph
         variant="h5"
         text="Was hat mir an den 'professionellen' Programmen nicht gefallen?"
       />
-      <List>
-        <ListItem>
-          Der Aufwand eine (einfache) Schaltung zu entwerfen, ist mit einem
-          erheblichen Zeitaufwand verbunden, weil viele Details beachtet werden
-          müssen.
-        </ListItem>
-        <ListItem>
-          Eigene Schaltsymbole hinzuzufügen ist bei vielen der von mir
-          getesteten Programme eher kompliziert.
-        </ListItem>
-        <ListItem>
-          Viele Programme sind vom Handling recht kompliziert. Wenn ein Jahr
-          vergangen ist, ohne dass man das Programm verwendet hat, hat man die
-          Bedienung fast vergessen.
-        </ListItem>
-      </List>
+      <UniqueList component="ul" list={list1} />
 
       <Typograph variant="h5" text="Was soll HobbyCi leisten:" />
-      <List>
-        <ListItem>
-          Die Leitungen/Verbindungen sollen automatisch gezogen werden
-        </ListItem>
-        <ListItem>Eine einfache Suchfunktion für Bauteile</ListItem>
-        <ListItem>
-          Einfaches hinzufügen von neuen Schaltsymbolen und IC's
-        </ListItem>
-        <ListItem>Intuitive Benutzerführung, wo möglich</ListItem>
-      </List>
+      <UniqueList component="ul" list={list2} />
 
       <Typograph variant="h5" text="Was soll HobbyCi nicht leisten:" />
-      <List>
-        <ListItem>
-          Es ist soll kein Platinen-Layout oder 3D Darstellungen von fertigen
-          Modulen liefern.
-        </ListItem>
-        <ListItem>Keine Simulation</ListItem>
-        <ListItem>Umfangreiche Bauelemente-Datenbank</ListItem>
-        <ListItem>Schaltpläne nach einer Norm erstellen</ListItem>
-      </List>
-      <Typograph
-        variant="body1"
-        text="Im Übrigen wurden die Schaltpläne auf dieser Homepage alle 
-                mit HobbyCi oder einer Vorversion entwickelt."
-      />
+      <UniqueList compoenent="ul" list={list3} />
+      <Body text={text3} />
       <Divider />
       <Typograph variant="h6" text="Systemvoraussetzungen:" />
-      <List>
-        <ListItem>Windows/Linux</ListItem>
-        <ListItem>Java 1.7</ListItem>
-      </List>
+      <UniqueList component="ul" list={list4} />
       <Buttons
         href="http://www.oltzen.de/software/HobbyCi_20160813Beta.jar"
         variant="contained"
@@ -85,12 +37,8 @@ const Hobbyci = () => {
         variant="h4"
         text="Das Programm mit der folgenden Befehlszeile gestartet werden:"
       />
-      <Typograph variant="body1" text="java -jar HobbyCi_20160813Beta.jar" />
-      <Typograph
-        variant="body1"
-        text="Unter Windows 10 kann über den Explorer die JAR-Datei wie ein Programm
-          gestartet werden."
-      />
+      <Body text={text4} />
+      <Body text={text5} />
     </Container>
   );
 };

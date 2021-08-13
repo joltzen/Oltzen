@@ -3,6 +3,7 @@ import Page from "components/Page";
 import useImages from "hooks/useImages";
 import lcmeterschaltung from "images/lcmeterschaltung.png";
 import React from "react";
+
 const Schaltung = () => {
   const classes = useImages();
   return (

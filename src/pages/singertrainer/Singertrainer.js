@@ -1,4 +1,5 @@
 import { Container, Link } from "@material-ui/core";
+import Body from "components/Body";
 import Page from "components/Page";
 import Typograph from "components/Typograph";
 import useImages from "hooks/useImages";
@@ -10,16 +11,14 @@ const Singertrainer = () => {
   return (
     <Container maxWidth="md">
       <Page title="Singer Trainer" description="Einführung" />
-      <Typograph
-        variant="body1"
+      <Body
         text="Der Singer Trainer ist ein Programm, 
         mit dem die lauteste Tonhöhe aus einem Mikrofon ermittelt wird. 
         Der Sänger kann also sehen, wie sauber ein Ton getroffen wurde. 
         Das Programm ist auch zum Stimmen von Gitarren geeignet, aber nicht dafür
         ausgelegt."
       />
-      <Typograph
-        variant="body1"
+      <Body
         text="Weil ich keine freie Software gefunden 
         habe, die das kann, habe ich mich entschlossen ein eigenes Programm 
         zu schreiben. Der Kern des Programmes ist die 
@@ -36,8 +35,7 @@ const Singertrainer = () => {
         src={singertrainer}
         alt="SingerTrainer "
       />
-      <Typograph
-        variant="body1"
+      <Body
         text="Auf dem Bild ist in ganz großen Lettern der erkannte Ton zu sehen. 
         Dabei wird nach dem internationalen Standard der Ton angezeigt.
         Der Kammerton A ist A4. Ist der Ton um mehr als 10% daneben, wird der 
@@ -46,8 +44,7 @@ const Singertrainer = () => {
         höher singen. Zeigt der Pfeil nach unten, entsprechend niedriger.
         Wird der Ton schwarz angezeigt, so liegt der Ton nur um maximal 10% daneben."
       />
-      <Typograph
-        variant="body1"
+      <Body
         text="Die genaue Abweichung kann an Deviation abgelesen werden. 
               Eine Abweichung von 100% bedeutet, dass man genau zwischen 
               zwei Tönen liegt. Die ermittelte Frequenz wird auch angezeigt. 
@@ -55,24 +52,20 @@ const Singertrainer = () => {
               Dies hängt von der Lautstärke und der Reinheit des Tones ab."
       />
       <Typograph variant="h5" text="Download" />
-      <Typograph
-        variant="body1"
-        text="Es muss mindestens Java 6 installiert sein!"
-      />
+      <Body text="Es muss mindestens Java 6 installiert sein!" />
 
       <Link href="http://www.oltzen.de/software/SingerTrainer.exe">
         SingerTrainer.exe
       </Link>
-      <Typograph
-        variant="body1"
+      <Body
         text="Beim Starten könnte eine Fehlermeldung auftreten, dass eine DLL 
         fehlt. Diese Meldung kann einfach übergangen werden."
       />
       <Link href="http://www.oltzen.de/software/SingerTrainerSrc.zip">
         SingerTrainerSrc.zip
       </Link>
-      <Typograph variant="body1" text="Für die Linux Nutzer:" />
-      <Typograph variant="body1" text="java -jar SingerTrainer.jar" />
+      <Body text="Für die Linux Nutzer:" />
+      <Body text="java -jar SingerTrainer.jar" />
       <Link href="http://www.oltzen.de/software/SingerTrainerSrc.jar">
         SingerTrainer.jar
       </Link>

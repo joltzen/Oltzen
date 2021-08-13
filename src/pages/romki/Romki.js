@@ -1,7 +1,7 @@
 import { Container } from "@material-ui/core";
+import Body from "components/Body";
 import Footer from "components/Footer";
 import Page from "components/Page";
-import Typograph from "components/Typograph";
 import React from "react";
 
 const Romki = () => {
@@ -12,8 +12,8 @@ const Romki = () => {
         description="RomkI steht für 'Roboter mit künstlicher Intelligenz'. Das Ziel ist es
         verschiedenen Konzepte der KI auf einen realen Roboter zu überprüfen."
       />
-      <Typograph variant="body1" text="Um dieses Ziel zu erreichen ..." />
-      <Typograph variant="body1" text="(29.11.2014)" />
+      <Body text="Um dieses Ziel zu erreichen ..." />
+      <Body text="(29.11.2014)" />
       <Footer />
     </Container>
   );
