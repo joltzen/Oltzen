@@ -1,5 +1,6 @@
 import { Container } from "@material-ui/core";
 import React from "react";
+import Footer from "../components/Footer";
 import Page from "../components/Page";
 import Typograph from "../components/Typograph";
 
@@ -13,6 +14,7 @@ const Romki = () => {
       />
       <Typograph variant="body1" text="Um dieses Ziel zu erreichen ..." />
       <Typograph variant="body1" text="(29.11.2014)" />
+      <Footer />
     </Container>
   );
 };

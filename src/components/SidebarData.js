@@ -1,21 +1,21 @@
-import React from "react";
 import {
-  FlashOn,
-  Mic,
-  Straighten,
-  RssFeed,
-  YouTube,
-  DriveEta,
-  Bookmark,
-  Highlight,
-  PhotoCamera,
-  EmojiObjects,
-  Info,
-  SettingsInputHdmi,
   ArrowDropDown,
   ArrowDropUp,
+  Bookmark,
+  DriveEta,
+  EmojiObjects,
+  FlashOn,
+  Highlight,
   Home,
+  Info,
+  Mic,
+  PhotoCamera,
+  RssFeed,
+  SettingsInputHdmi,
+  Straighten,
+  YouTube,
 } from "@material-ui/icons";
+import React from "react";
 
 export const SidebarData = [
   {
@@ -152,7 +152,6 @@ export const SidebarData = [
   },
   {
     title: "Youtube",
-    path: "/youtube",
     icon: <YouTube />,
   },
   {

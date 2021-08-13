@@ -1,7 +1,6 @@
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
 import {
   Audio,
   Bilder,
@@ -9,6 +8,7 @@ import {
   Changelog,
   Controller,
   Hobbyci,
+  Home,
   Impressum,
   Lcmeter,
   Ledleiste,
@@ -23,9 +23,9 @@ import {
   Tutorial,
   W5500,
   Wschaltung,
-  Home,
   Zeichenbefehle,
 } from "./pages";
+
 function App() {
   return (
     <Router>
